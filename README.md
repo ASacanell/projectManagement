@@ -36,7 +36,7 @@ Work in progress!
 
 Want to contribute? Great!
 
-Contact us at [@ASacanellN], [@Gabi_IDontCare], [@chepkman]
+Contact us at [@ASacanellN], [@Gabi_IDontCare], [@chepkman], [@Playero99]
 
 ### Todos
 
@@ -56,5 +56,6 @@ GPLv3
    [@asacanelln]: <https://twitter.com/ASacanellN>
    [@Gabi_IDontCare]: <https://twitter.com/Gabi_IDontCare>
    [@chepkman]: <https://twitter.com/chepkman>
+   [@Playero99]: <https://twitter.com/Playero99>
    [Angular2]: <https://angular.io/>
    [Font Awesome]: <http://fontawesome.io>
