@@ -1,0 +1,28 @@
+{
+  "name": "project-management",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ASacanell/projectManagement.git"
+  },
+  "author": "Alejandro Sacanell, Gabriel Galan, Carlos Garcia, Sergio Lopez",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ASacanell/projectManagement/issues"
+  },
+  "homepage": "https://github.com/ASacanell/projectManagement#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.4.2",
+    "express": "^4.14.0",
+    "mongojs": "^2.4.0",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7"
+  }
+}
