@@ -4,7 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bowerInstall": "node_modules/bower/bin/bower install --allow-root",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,7 @@
     "express": "^4.14.0",
     "mongojs": "^2.4.0",
     "morgan": "^1.7.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "bower": "^1.7.0"
   }
 }
