@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ProjectManager</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <base href=".">
+
+        <!-- <link rel="stylesheet" type="text/css" href="assets/css/semantic.min.css"> -->
+        <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+        <!-- IE required polyfills, in this exact order -->
+        <!-- Polyfill(s) for older browsers -->
+        <script src="assets/js/vendor/shim.min.js"></script>
+        <script src="assets/js/vendor/zone.js"></script>
+        <script src="assets/js/vendor/Reflect.js"></script>
+        <script src="assets/js/vendor/system.js"></script>
+        <script src="assets/js/vendor/jquery.min.js"></script>
+
+        <!-- 2. Configure SystemJS -->
+        <!--Development mod-->
+        <script src="assets/js/systemjs.config.js"></script>
+        <script>
+            System.import('app').catch(function(err) { console.error(err); });
+        </script>
+    </head>
+
+    <body>
+        <div class="container">
+            <app>
+                <div class="ui active inverted dimmer">
+                    <div class="ui small loader"></div>
+                </div>
+            </app>
+            <!--  Production mod: To use bundle system  -->
+            <!--<script src="assets/js/bundle.min.js"></script>-->
+        </div>
+    </body>
+</html>

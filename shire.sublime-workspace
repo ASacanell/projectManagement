@@ -1,0 +1,489 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rati",
+				"ratingStars"
+			],
+			[
+				"for",
+				"formatDistance"
+			],
+			[
+				"dis",
+				"distance"
+			],
+			[
+				"Hero",
+				"HeroDetailComponent	alias"
+			],
+			[
+				"Event",
+				"EventEmitter	alias"
+			],
+			[
+				"h",
+				"handleError	method"
+			],
+			[
+				"lo",
+				"locationByCoords"
+			],
+			[
+				"location",
+				"locationByCoords"
+			],
+			[
+				"loc",
+				"loc8rData"
+			],
+			[
+				"nav",
+				"navbar-collapse"
+			],
+			[
+				"ra",
+				"rating-stars"
+			],
+			[
+				"contro",
+				"controllerFunction"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "public/index.html",
+			"settings":
+			{
+				"buffer_size": 1277,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "shire_client/components/app.component.ts",
+			"settings":
+			{
+				"buffer_size": 619,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "shire_client/routes.ts",
+			"settings":
+			{
+				"buffer_size": 593,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 251.0,
+		"last_filter": "pa",
+		"selected_items":
+		[
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: ",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"install",
+			"help",
+			"Package Control: html5",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"Package Control: html5"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/oka/git_repos/shire",
+		"/home/oka/git_repos/shire/public",
+		"/home/oka/git_repos/shire/shire_client",
+		"/home/oka/git_repos/shire/shire_client/components",
+		"/home/oka/git_repos/shire/shire_client/components/contact",
+		"/home/oka/git_repos/shire/shire_client/components/home",
+		"/home/oka/git_repos/shire/shire_server",
+		"/home/oka/git_repos/shire/shire_server/bin",
+		"/home/oka/git_repos/shire/shire_server/routes"
+	],
+	"file_history":
+	[
+		"/home/oka/git_repos/shire/shire_client/components/home/home.component.html",
+		"/home/oka/git_repos/shire/shire_client/routes.ts",
+		"/home/oka/git_repos/shire/shire_client/components/app.component.ts",
+		"/home/oka/git_repos/shire/public/index.html",
+		"/home/oka/git_repos/shire/public/assets/js/systemjs.config.js",
+		"/home/oka/git_repos/shire/shire_client/components/home/home.component.ts",
+		"/home/oka/git_repos/shire/shire_server/routes/api.ts",
+		"/home/oka/git_repos/shire/shire_server/app.ts",
+		"/home/oka/git_repos/shire/shire_server/bin/www",
+		"/home/oka/git_repos/shire/shire.sublime-project",
+		"/home/oka/git_repos/shire/shire_client/components/project/project.component.ts",
+		"/home/oka/git_repos/shire/shire_client/components/project/project.component.html",
+		"/home/oka/git_repos/shire/public/assets/js/bundle.min.js",
+		"/home/oka/git_repos/shire/shire_client/routesDuplicate.ts",
+		"/home/oka/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/oka/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/oka/git_repos/shire/.sublime-project",
+		"/home/oka/git_repos/shire/shire_server/routes/api.js",
+		"/home/oka/git_repos/shire/shire_server/routes/client.ts",
+		"/home/oka/git_repos/shire/shire_client/components/home/home.component.js",
+		"/home/oka/git_repos/shire/shire_client/components/contact/contact.component.html",
+		"/home/oka/git_repos/shire/package.json",
+		"/home/oka/git_repos/shire/nodemon.json",
+		"/home/oka/git_repos/shire/shire_client/tsconfig.json",
+		"/home/oka/git_repos/shire/shire_client/components/contact/contact.component.ts",
+		"/home/oka/git_repos/shire/Procfile",
+		"/home/oka/git_repos/codeHere/loc8r/app_client/common/directives/ratingStars/ratingStars.directive.js",
+		"/home/oka/git_repos/codeHere/loc8r/app.js",
+		"/home/oka/git_repos/codeHere/loc8r/app_server/routes/index.js",
+		"/home/oka/git_repos/codeHere/loc8r/app_server/controllers/others.js",
+		"/home/oka/git_repos/codeHere/loc8r/app_server/controllers/locations.js",
+		"/home/oka/git_repos/codeHere/loc8r/app_server/views/layout.jade",
+		"/home/oka/git_repos/codeHere/loc8r/app_client/home.view.html",
+		"/home/oka/git_repos/codeHere/loc8r/app_client/common/services/geolocation.service.js",
+		"/home/oka/git_repos/codeHere/loc8r/app_client/common/filters/formatDistance.filter.js",
+		"/home/oka/git_repos/codeHere/loc8r/app_client/home.controller.js",
+		"/home/oka/git_repos/codeHere/loc8r/app_client/common/services/loc8rData.service.js",
+		"/home/oka/git_repos/codeHere/loc8r/public/angular/rating-stars.html",
+		"/home/oka/git_repos/codeHere/loc8r/app_client/app.js",
+		"/home/oka/git_repos/codeHere/loc8r/app_client/lib/angular-route.min.js",
+		"/home/oka/git_repos/codeHere/loc8r/app_server/views/location-review-form.jade",
+		"/home/oka/git_repos/codeHere/loc8r/app_api/controllers/locations.js",
+		"/home/oka/git_repos/codeHere/loc8r/app_server/views/location-list.jade",
+		"/home/oka/git_repos/codeHere/loc8r/public/angular/loc8rApp.js",
+		"/home/oka/git_repos/codeHere/angular/angular2-quickstart/app/heroes.component.html",
+		"/home/oka/git_repos/codeHere/angular/angular2-quickstart/app/heroes.component.ts",
+		"/home/oka/git_repos/codeHere/angular/angular2-quickstart/app/main.ts",
+		"/home/oka/git_repos/codeHere/angular/angular2-quickstart/app/hero.service.ts",
+		"/home/oka/git_repos/codeHere/angular/angular2-quickstart/app/hero.service.js.map",
+		"/home/oka/git_repos/codeHere/angular/angular2-quickstart/app/hero-detail.component.ts",
+		"/home/oka/git_repos/codeHere/angular/angular2-quickstart/app/hero-detail.component.html",
+		"/home/oka/git_repos/codeHere/angular/angular2-quickstart/app/in-memory-data.service.ts",
+		"/home/oka/git_repos/codeHere/angular/angular2-quickstart/index.html",
+		"/home/oka/git_repos/codeHere/angular/angular2-quickstart/app/app.component.ts",
+		"/home/oka/git_repos/codeHere/angular/angular2-quickstart/app/app.routes.ts",
+		"/home/oka/git_repos/codeHere/angular/angular2-quickstart/app/dashboard.component.ts",
+		"/home/oka/git_repos/codeHere/angular/angular2-quickstart/app/dashboard.component.html",
+		"/home/oka/git_repos/codeHere/angular/angular2-quickstart/app/mock-heroes.ts",
+		"/home/oka/git_repos/codeHere/angular/angular2-quickstart/app/Hero.ts",
+		"/home/oka/git_repos/codeHere/angular/angular2-quickstart/styles.css",
+		"/home/oka/git_repos/codeHere/loc8r/app_api/routes/index.js",
+		"/home/oka/git_repos/codeHere/loc8r/NOTE_dbinfo.txt",
+		"/home/oka/git_repos/codeHere/loc8r/public/stylesheets/style.css",
+		"/home/oka/git_repos/codeHere/loc8r/public/angular/angular.min.js",
+		"/home/oka/git_repos/codeHere/loc8r/public/angular/myAppModule.js",
+		"/home/oka/git_repos/codeHere/loc8r/public/angular/angularExample.html",
+		"/home/oka/git_repos/codeHere/loc8r/public/angular/w3schoolExample.html",
+		"/home/oka/git_repos/codeHere/loc8r/public/angular/angularExample.js",
+		"/home/oka/git_repos/codeHere/loc8r/public/Angular/loc8rApp.js",
+		"/home/oka/git_repos/codeHere/loc8r/Procfile",
+		"/home/oka/git_repos/codeHere/loc8r/NOTE_init_dev_tools.sh~"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"/home/oka/git_repos/shire/shire_server",
+			"/home/oka/git_repos/shire/shire_client",
+			"/home/oka/git_repos/shire",
+			"/home/oka/git_repos/shire/shire_server",
+			"/home/oka/git_repos/shire/",
+			"/home/oka/git_repos/shire/shire_server",
+			"/home/oka/git_repos/shire",
+			"/home/oka/git_repos/shire/shire_client",
+			"/home/oka/git_repos/shire/shire_server",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"app",
+			"client",
+			"index",
+			"index.html",
+			"index",
+			"Contact Me",
+			"Contact us",
+			"Contact Us",
+			"contact me",
+			"contact us",
+			"Contact Me",
+			"contact",
+			"main",
+			"home",
+			"main",
+			"protectedRouter",
+			"protected",
+			"protectedRouter",
+			"angualr2express",
+			"angular2express",
+			"Home",
+			"client",
+			"server",
+			"layout",
+			"ratingStars",
+			"viewModel",
+			"scope",
+			"pageHeader",
+			"scope",
+			"render",
+			"formatDistance",
+			"locationByCoords",
+			"navbar-main",
+			"navbar",
+			"collapse",
+			"navbar",
+			"glyphicon",
+			"\"",
+			"scope"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "public/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1277,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								166,
+								166
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 315.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "shire_client/components/app.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 619,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								619,
+								619
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "shire_client/routes.ts",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 593,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "shire.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 196.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

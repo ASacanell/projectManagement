@@ -1,0 +1,1 @@
+web: node ./shire_server/bin/www
