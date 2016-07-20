@@ -4,8 +4,7 @@ var express = require("express");
 var path_1 = require("path");
 var favicon = require("serve-favicon");
 var body_parser_1 = require("body-parser");
-var api_1 = require("./routes/api");
-var client_1 = require("./routes/client");
+var routerAPI = require("../shire_api/routes/index.ts");
 var app = express();
 exports.app = app;
 app.disable("x-powered-by");
@@ -15,8 +14,7 @@ app.use(express.static(path_1.join(__dirname, '../public')));
 app.use(body_parser_1.json());
 app.use(body_parser_1.urlencoded({ extended: true }));
 // api routes
-app.use("/api", api_1.routerAPI);
-app.use("/", client_1.router);
+app.use("/api", routerAPI.router);
 // Internal path to client app (used in systemjs.config.js)
 app.use('/client', express.static(path_1.join(__dirname, '../shire_client')));
 // error handlers

@@ -4,8 +4,9 @@ import { join } from "path";
 import * as favicon from "serve-favicon";
 import { json, urlencoded } from "body-parser";
 
-import { routerAPI } from "./routes/api";
-import { router } from "./routes/client";
+import { routerProjects } from "./routes/index";
+import * as routerAPI from "../shire_api/routes/index.ts";
+import db = require("../shire_api/models/db.ts");
 
 const app: express.Application = express();
 app.disable("x-powered-by");
@@ -18,8 +19,7 @@ app.use(json());
 app.use(urlencoded({ extended: true }));
 
 // api routes
-app.use("/api", routerAPI);
-app.use("/", router);
+app.use("/api", routerAPI.router);
 // Internal path to client app (used in systemjs.config.js)
 app.use('/client', express.static(join(__dirname, '../shire_client'))); 
 
