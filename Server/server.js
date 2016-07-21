@@ -4,6 +4,7 @@ var path = require('path');
 var index = require('./routes/index');
 var tasks = require('./routes/tasks');
 
+
 var app = express();
 
 // view engine setup
@@ -11,7 +12,7 @@ app.set('views', path.join(__dirname, '../Client/views'));
 app.set('view engine', 'ejs');
 app.engine('html', require('ejs').renderFile);
 
-app.use(express.static(path.join(__dirname, 'node_modules')));
+app.use(express.static(path.join(__dirname, '../Client/node_modules')));
 app.use(express.static(path.join(__dirname, '../Client')));
 
 
