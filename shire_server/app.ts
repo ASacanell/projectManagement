@@ -4,8 +4,8 @@ import { join } from "path";
 import * as favicon from "serve-favicon";
 import { json, urlencoded } from "body-parser";
 
-import { routerProjects } from "./routes/index";
-import * as routerAPI from "../shire_api/routes/index.ts";
+import * as router from "./routes/index";
+import * as routerAPI from "../shire_api/routes/index";
 import db = require("../shire_api/models/db.ts");
 
 const app: express.Application = express();

@@ -4,7 +4,7 @@ var express = require("express");
 var path_1 = require("path");
 var favicon = require("serve-favicon");
 var body_parser_1 = require("body-parser");
-var routerAPI = require("../shire_api/routes/index.ts");
+var routerAPI = require("../shire_api/routes/index");
 var app = express();
 exports.app = app;
 app.disable("x-powered-by");

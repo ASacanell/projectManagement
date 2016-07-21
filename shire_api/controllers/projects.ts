@@ -1,20 +1,30 @@
 
-
 export function projectsGetN(req, res) {
 	res.json({
-		title: "projectsGetN GET call",
-		text: "Returns N projects related to User"
+		title: "ProjectManager"
 	});
 }
+
 export function projectsRead(req, res) {
-	
+	res.json({
+		title: "ProjectManager"
+	});
 }
+
 export function projectsCreate(req, res) {
-	
+	res.json({
+		title: "ProjectManager"
+	});
 }
+
 export function projectsUpdate(req, res) {
-	
+	res.json({
+		title: "ProjectManager"
+	});
 }
+
 export function projectsDelete(req, res) {
-	
+	res.json({
+		title: "ProjectManager"
+	});
 }

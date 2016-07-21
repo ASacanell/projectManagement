@@ -1,18 +1,18 @@
 /// <reference path="../../typings/index.d.ts" />
-import { Router } from "express";
+import * as express from "express";
 import * as bodyparser from "body-parser";
 import ctrlProjects = require("../controllers/projects.ts");
 
 // import * as mongoose from "mongoose";
 // var app: express.Application = express();
-var routerProjects = Router();
+var router = express.Router();
 
-// const routerProjects: Router = Router();
-routerProjects.use(bodyparser.json());
-routerProjects.use(bodyparser.urlencoded({
+// const router: Router = Router();
+router.use(bodyparser.json());
+router.use(bodyparser.urlencoded({
 	extended: true
 }));
 
-routerProjects.get("/", ctrlProjects.projectOverview);
+router.get("/", ctrlProjects.projectOverview);
 
-export {routerProjects}
+export { router };
