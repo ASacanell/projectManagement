@@ -53,10 +53,17 @@ $ docker exec -it node bash
 ### Usage
 Once you have the docker system ready:
 Access the node container console and run:
+In client directory:
 ```shell
 $ npm install
+$ npm run postinstall
 $ npm run bowerInstall
-$ npm run start
+$ npm run tsc
+```
+In server directory:
+```shell
+$ npm install
+$ node server.js
 ```
 And you will have your node app running and ready to rock!
 Now your last step is to check if it's working, so go in your browser to:
