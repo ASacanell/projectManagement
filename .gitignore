@@ -1,10 +1,6 @@
-/Client/node_modules
-/Client/app/*.js
-/client/app/*.js.map
-/Client/public/vendor
-/Client/typings
+Client/
 /db
 /configdb
-/Server/node_modules
+/Server
 .idea/
 npm-debug.log
