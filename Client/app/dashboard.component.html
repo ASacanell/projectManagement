@@ -1,0 +1,8 @@
+<h3>Top Tasks</h3>
+<div class="grid grid-pad">
+    <div *ngFor="let task of tasks" (click)="gotoDetail(task)" class="col-1-4">
+        <div class="module name">
+            <h4>{{task.name}}</h4>
+        </div>
+    </div>
+</div>

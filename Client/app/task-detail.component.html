@@ -1,0 +1,10 @@
+<div *ngIf="task">
+    <h2>{{task.name}} details!</h2>
+    <div>
+        <label>id: </label>{{task._id}}</div>
+    <div>
+        <label>name: </label>
+        <input [(ngModel)]="task.name" placeholder="name" />
+    </div>
+    <button (click)="goBack()">Back</button>
+</div>
