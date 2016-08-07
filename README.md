@@ -62,6 +62,17 @@ And you will have your node app running and ready to rock!
 Now your last step is to check if it's working, so go in your browser to:
 [Localhost](http://localhost:3000/) and you have to see the app working.
 
+
+### RakeFile
+
+    Rake script Bla bla bla bla
+
+    ## To Do:
+       - Implement invoke method
+       - Implement Build Task
+       - Debug script
+
+
 ### Plugins
 
 Work in progress!
@@ -71,6 +82,7 @@ Work in progress!
 Want to contribute? Great!
 
 Contact us at [@ASacanellN], [@Gabi_IDontCare], [@chepkman], [@Playero99]
+
 
 ### Todos
 
