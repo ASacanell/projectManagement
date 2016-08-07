@@ -1,7 +1,0 @@
-
-namespace :server do
-
-  desc 'Clean node_modules'
-  task :clean_npde_modules do
-  end
-end
