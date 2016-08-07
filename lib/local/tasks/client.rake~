@@ -1,0 +1,24 @@
+
+clientDir = ""
+namespace :client do
+  
+  desc 'Clean node_modules folder'
+  task :clean_node_modules do
+  end
+
+  desc 'Clean typings'
+  task :clean_typings do
+  end
+
+  desc 'Clean App/*.js.*'
+  task :clean_js do
+  end
+
+  desc 'Clean Public/Vendor'
+  task :clean_vendor do
+  end
+  
+  
+
+end
+
