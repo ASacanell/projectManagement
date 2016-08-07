@@ -65,9 +65,9 @@ Now your last step is to check if it's working, so go in your browser to:
 
 ### RakeFile
 
-    Rake script Bla bla bla bla
+Rake script Bla bla bla bla
 
-    ## To Do:
+     To Do:
        - Implement invoke method
        - Implement Build Task
        - Debug script
